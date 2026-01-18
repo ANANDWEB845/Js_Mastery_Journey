@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>function</title>
+</head>
+<body>
+
+  <script>
+    // TOPIC = FUNCTION;
+    // Example = 1;
+    function getvillage(){
+      let village = 'sahadih dewara khas raja';
+      return village;
+    }
+    console.log(getvillage());
+    // Example = 2;
+    let age = 20;
+    function myage(){
+      console.log(age);
+    }
+    myage();
+    age = 43;
+    myage();
+    age = 21;
+    myage();
+
+    // TOPIC = PARAMETERS
+    // Example = 1;
+    function add(a , b){
+      let sum = a + b;
+      return sum;
+    }
+    console.log(add(4 , 5));
+    // Example = 2;
+    function greeting(name = "Boss"){
+      console.log(`Namste ${name} uncle`);
+    }
+    greeting();
+    // Example = 3 ;
+     function hello(name = "Boss"){
+      console.log(`Namste ${name} uncle`);
+    }
+    hello("tito");
+
+  </script>
+  </body>
+</html>
