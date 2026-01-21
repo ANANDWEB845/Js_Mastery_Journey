@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+  // INSIDE OBJECT
+  let hardwareproduct= {
+    pipe : 7,
+    ironroad: 6,
+    paint:{
+      brand:'asian',
+      color:'red',
+      liter:10,
+    },
+    display:function(){
+      console.log(this.pipe);
+    }
+    };
+    hardwareproduct.display();
+    // AUTOBOXING
+    console.log('hello motu'.length);
+    console.log('hell motu'.replace('motu','patlu'));
+    console.log('hello motu'.italics());
+
+
+  </script>
+  
+</body>
+</html>
