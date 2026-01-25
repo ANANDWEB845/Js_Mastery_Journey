@@ -6,7 +6,7 @@ console.log(typeof(number));
 let box = null;
 console.log(typeof(box));
 // STRING
-let name = "Anand";
+let name = "hello";
 console.log(typeof(name));
 // SYMBOL
 let bhai1 = Symbol("Anand");
