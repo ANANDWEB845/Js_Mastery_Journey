@@ -1,1 +1,1 @@
-"Aaj maine JS variable seekha"
+"JS_Mastery_journey_"
